@@ -4,6 +4,7 @@
  * print_triangle - Prints a triangle, using the character #.
  * @size: The size of the triangle.
  *
+ * Return: 0.
  */
 
 void print_triangle(int size)
@@ -27,4 +28,5 @@ void print_triangle(int size)
 		}
 		_putchar('\n');
 	}
+	return (0);
 }
