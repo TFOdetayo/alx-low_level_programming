@@ -9,12 +9,17 @@
 
 void puts2(char *str)
 {
-	int num = 0;
+	int num = 0, tot = 0;
 
-	while (*(str + num))
+	while (str[num++])
+		tot++;
+
 	{
-		_putchar(*(str + num));
-		num += 2;
+		for (num = 0; num < tot; num += 2)
+		{
+			_putchar(str[num]);
+		}
 	}
+
 	_putchar('\n');
 }
