@@ -16,14 +16,6 @@ void rev_string(char *s)
 	{
 		a++;
 	}
-
-	a = 0;
-
-	while(s[a])
-	{
-		a++;
-	}
-
 	while (a--)
 		_putchar(s[a]);
 
