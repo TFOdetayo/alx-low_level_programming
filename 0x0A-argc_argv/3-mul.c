@@ -25,4 +25,5 @@ int main(int argc, char *argv[])
 		result = result * atoi(argv[i]);
 	}
 	printf("%d\n", result);
+	return (0);
 }
