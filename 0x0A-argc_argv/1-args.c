@@ -6,10 +6,10 @@
  * @argc: The count of arguments passed into the program.
  * @argv: The arguments passed into the program.
  *
- * Return: 0.
+ * Return: 0
  */
 
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int argc, char *argv[]__attribute__((unused)))
 {
 	printf("%d\n", argc - 1);
 
